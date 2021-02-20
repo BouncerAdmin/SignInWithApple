@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		657986E88F87A9B39E3C58E1 /* Pods_SignInWithApple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBC0080BE26A6C7319687F0 /* Pods_SignInWithApple.framework */; };
+		A4630F9E25E0E90700CB4E1E /* SignInWithAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4630F9D25E0E90700CB4E1E /* SignInWithAppleApp.swift */; };
+		A4630FA025E0E90700CB4E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4630F9F25E0E90700CB4E1E /* ContentView.swift */; };
+		A4630FA225E0E90800CB4E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4630FA125E0E90800CB4E1E /* Assets.xcassets */; };
+		A4630FA525E0E90800CB4E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4630FA425E0E90800CB4E1E /* Preview Assets.xcassets */; };
+		A4630FAE25E0EA2200CB4E1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4630FAD25E0EA2200CB4E1E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34A72EDBDB11C1FB7CE613FD /* Pods-SignInWithApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithApple.debug.xcconfig"; path = "Target Support Files/Pods-SignInWithApple/Pods-SignInWithApple.debug.xcconfig"; sourceTree = "<group>"; };
+		5DBC0080BE26A6C7319687F0 /* Pods_SignInWithApple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithApple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4630F9A25E0E90700CB4E1E /* SignInWithApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInWithApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4630F9D25E0E90700CB4E1E /* SignInWithAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleApp.swift; sourceTree = "<group>"; };
+		A4630F9F25E0E90700CB4E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4630FA125E0E90800CB4E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4630FA425E0E90800CB4E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4630FA625E0E90800CB4E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4630FAD25E0EA2200CB4E1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A4F2FA5D25E0F1E8006C8085 /* SignInWithApple.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SignInWithApple.entitlements; sourceTree = "<group>"; };
+		F3AFE7E5F66CA6A90C436D70 /* Pods-SignInWithApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithApple.release.xcconfig"; path = "Target Support Files/Pods-SignInWithApple/Pods-SignInWithApple.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4630F9725E0E90700CB4E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657986E88F87A9B39E3C58E1 /* Pods_SignInWithApple.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C464E278F601D1CCF2E06F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC0080BE26A6C7319687F0 /* Pods_SignInWithApple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4630F9125E0E90700CB4E1E = {
+			isa = PBXGroup;
+			children = (
+				A4630F9C25E0E90700CB4E1E /* SignInWithApple */,
+				A4630F9B25E0E90700CB4E1E /* Products */,
+				B3EE320ED764AD5E89D4AAC5 /* Pods */,
+				8C464E278F601D1CCF2E06F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4630F9B25E0E90700CB4E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4630F9A25E0E90700CB4E1E /* SignInWithApple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4630F9C25E0E90700CB4E1E /* SignInWithApple */ = {
+			isa = PBXGroup;
+			children = (
+				A4F2FA5D25E0F1E8006C8085 /* SignInWithApple.entitlements */,
+				A4630F9D25E0E90700CB4E1E /* SignInWithAppleApp.swift */,
+				A4630F9F25E0E90700CB4E1E /* ContentView.swift */,
+				A4630FA125E0E90800CB4E1E /* Assets.xcassets */,
+				A4630FA625E0E90800CB4E1E /* Info.plist */,
+				A4630FAD25E0EA2200CB4E1E /* GoogleService-Info.plist */,
+				A4630FA325E0E90800CB4E1E /* Preview Content */,
+			);
+			path = SignInWithApple;
+			sourceTree = "<group>";
+		};
+		A4630FA325E0E90800CB4E1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4630FA425E0E90800CB4E1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3EE320ED764AD5E89D4AAC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A72EDBDB11C1FB7CE613FD /* Pods-SignInWithApple.debug.xcconfig */,
+				F3AFE7E5F66CA6A90C436D70 /* Pods-SignInWithApple.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4630F9925E0E90700CB4E1E /* SignInWithApple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4630FA925E0E90800CB4E1E /* Build configuration list for PBXNativeTarget "SignInWithApple" */;
+			buildPhases = (
+				B20CCA59B7AA6B3349DD2E64 /* [CP] Check Pods Manifest.lock */,
+				A4630F9625E0E90700CB4E1E /* Sources */,
+				A4630F9725E0E90700CB4E1E /* Frameworks */,
+				A4630F9825E0E90700CB4E1E /* Resources */,
+				B089C6DBABA0EE546F3ED633 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignInWithApple;
+			productName = SignInWithApple;
+			productReference = A4630F9A25E0E90700CB4E1E /* SignInWithApple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4630F9225E0E90700CB4E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A4630F9925E0E90700CB4E1E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A4630F9525E0E90700CB4E1E /* Build configuration list for PBXProject "SignInWithApple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4630F9125E0E90700CB4E1E;
+			productRefGroup = A4630F9B25E0E90700CB4E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4630F9925E0E90700CB4E1E /* SignInWithApple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4630F9825E0E90700CB4E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4630FA525E0E90800CB4E1E /* Preview Assets.xcassets in Resources */,
+				A4630FA225E0E90800CB4E1E /* Assets.xcassets in Resources */,
+				A4630FAE25E0EA2200CB4E1E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B089C6DBABA0EE546F3ED633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple/Pods-SignInWithApple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple/Pods-SignInWithApple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple/Pods-SignInWithApple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B20CCA59B7AA6B3349DD2E64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignInWithApple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4630F9625E0E90700CB4E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4630FA025E0E90700CB4E1E /* ContentView.swift in Sources */,
+				A4630F9E25E0E90700CB4E1E /* SignInWithAppleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4630FA725E0E90800CB4E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4630FA825E0E90800CB4E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4630FAA25E0E90800CB4E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A72EDBDB11C1FB7CE613FD /* Pods-SignInWithApple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SignInWithApple/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U9G99R68J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SignInWithApple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouncerapps.SignInWithApple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4630FAB25E0E90800CB4E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AFE7E5F66CA6A90C436D70 /* Pods-SignInWithApple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SignInWithApple/SignInWithApple.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SignInWithApple/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U9G99R68J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SignInWithApple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouncerapps.SignInWithApple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4630F9525E0E90700CB4E1E /* Build configuration list for PBXProject "SignInWithApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4630FA725E0E90800CB4E1E /* Debug */,
+				A4630FA825E0E90800CB4E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4630FA925E0E90800CB4E1E /* Build configuration list for PBXNativeTarget "SignInWithApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4630FAA25E0E90800CB4E1E /* Debug */,
+				A4630FAB25E0E90800CB4E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4630F9225E0E90700CB4E1E /* Project object */;
+}
